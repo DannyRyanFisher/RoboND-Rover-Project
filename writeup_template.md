@@ -147,7 +147,7 @@
 ![Image 9](./Photos/Rover-96-72.png)
 
 #### Image 10-Finished mapping example 2
-![Image 10](./Photos/Rover-Long-Finish.png)
+![Image 10](./Photos/Rover-Long-Finish2.png)
 
 
 ##### Critiques and improvements of the code
