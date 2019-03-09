@@ -1,9 +1,7 @@
 ## Project: Search and Sample Return
 ### Writeup Template: You can use this file as a template for your writeup if you want to submit it as a markdown file, but feel free to use some other method and submit a pdf if you prefer.
 
-## [Rubric](https://review.udacity.com/#!/rubrics/916/view) Points
-### Here I will consider the rubric points individually and describe how I addressed each point in my implementation.  
-
+## Rubric Points
 
 ### Notebook analysis
 #### Rubric 1
@@ -26,7 +24,7 @@
      these coordinates to 1's in the output image (Image 1)
 
 #### Image 1- Identified rock in image
-![Image 1][]
+![Image 1](./Photos/Rock-ID.png)
 
 
 #### Rubric 2
@@ -45,20 +43,20 @@
         (Image 3). 
 
 #### Image 2- Camera image from rover
-[Image 2]
+![Image 2](./Photos/Rover-4-way.png)
 
 #### Image 3- Birds-eye view of camera image through perspective_transform()
-[Image 3]
+![Image 3](./Photos/Rover-4-way-2.png)
 
    - Next the rover-centered images of navigable terrain, rocks and obstacles
      are produced in stage 3) and 4). Image 4 and 5 show these stages 
      respectively
 
 #### Image 4- Color-thresholded image displayed as black and white image 
-[Image 4]
+![Image 4](./Photos/Rover-4-way-3.png)
 
 #### Image 5- Rover-centered coordinates outputted by rover_coords()
-[Image 5]
+![Image 5](./Photos/Rover-4-way-4.png)
 
    - These coordinates are then converted to world coordinates (relative to 
      the starting position of the rover) in stage 5).
@@ -69,7 +67,7 @@
      directory. A snapshot of the final video is found in Image 6
 
 #### Image 6- Screenshot of the outputted video of Rover_Project_Test_Notebook
-[Image 6]
+![Image 6](./Photos/Rover-Video-Screenshot.png)
 
 
 ### Autonomous Navigation and Mapping
@@ -136,20 +134,20 @@
       - and FPS output is ~15 fps. (Image 8)
 
 #### Image 7- Resolution and graphics setup
-[Image 7]
+![Image 7](./Photos/Rover-Setup.png)
 
 #### Image 8- FPS output
-[Image 8]
+![Image 8](./Photos/Rover-FPS.png)
 
    - The fidelity of the ground truth is normally 65-75% for an 80% map 
      completion. On these autonomous navigation runs, the rover normally maps
      around 5 rock samples within this time. (Images 9 & 10)
 
 #### Image 9-Finished mapping example 1
-[Image 9]
+![Image 9](./Photos/Rover-96-72.png)
 
 #### Image 10-Finished mapping example 2
-[Image 10]
+![Image 10](./Photos/Rover-Long-Finish.png)
 
 
 ##### Critiques and improvements of the code
